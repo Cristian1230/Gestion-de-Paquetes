@@ -166,6 +166,25 @@ public class paquete2 extends javax.swing.JFrame {
         aviso = new javax.swing.JLabel();
         jButton22 = new javax.swing.JButton();
         jPanel12 = new javax.swing.JPanel();
+        jTextField23 = new javax.swing.JTextField();
+        jTextField24 = new javax.swing.JTextField();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jTextField25 = new javax.swing.JTextField();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        jTextField26 = new javax.swing.JTextField();
+        jLabel47 = new javax.swing.JLabel();
+        jTextField27 = new javax.swing.JTextField();
+        jTextField28 = new javax.swing.JTextField();
+        jTextField29 = new javax.swing.JTextField();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jLabel50 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(700, 700));
@@ -444,7 +463,7 @@ public class paquete2 extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jButton5);
-        jButton5.setBounds(290, 153, 100, 30);
+        jButton5.setBounds(290, 153, 110, 40);
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -499,7 +518,7 @@ public class paquete2 extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jButton7);
-        jButton7.setBounds(290, 380, 100, 30);
+        jButton7.setBounds(290, 380, 120, 40);
 
         jButton23.setBackground(new java.awt.Color(255, 0, 0));
         jButton23.setText("Atras");
@@ -955,9 +974,105 @@ public class paquete2 extends javax.swing.JFrame {
         getContentPane().add(jPanel11);
         jPanel11.setBounds(0, 0, 700, 700);
 
+        jPanel12.setBackground(new java.awt.Color(0, 74, 89));
         jPanel12.setLayout(null);
+        jPanel12.add(jTextField23);
+        jTextField23.setBounds(470, 50, 90, 30);
+        jPanel12.add(jTextField24);
+        jTextField24.setBounds(470, 100, 90, 30);
+
+        jLabel41.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel41.setText("Hora");
+        jPanel12.add(jLabel41);
+        jLabel41.setBounds(400, 110, 60, 17);
+
+        jLabel42.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel42.setText("Fecha");
+        jPanel12.add(jLabel42);
+        jLabel42.setBounds(400, 60, 60, 17);
+
+        jLabel43.setFont(new java.awt.Font("Arial Black", 1, 11)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("Salida");
+        jPanel12.add(jLabel43);
+        jLabel43.setBounds(480, 30, 60, 17);
+
+        jLabel44.setFont(new java.awt.Font("Arial Black", 1, 11)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel44.setText("llegada");
+        jPanel12.add(jLabel44);
+        jLabel44.setBounds(170, 30, 70, 17);
+        jPanel12.add(jTextField25);
+        jTextField25.setBounds(170, 50, 81, 30);
+
+        jLabel45.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel45.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel45.setText("Fecha");
+        jPanel12.add(jLabel45);
+        jLabel45.setBounds(100, 60, 70, 17);
+
+        jLabel46.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel46.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel46.setText("Hora");
+        jPanel12.add(jLabel46);
+        jLabel46.setBounds(110, 110, 60, 17);
+        jPanel12.add(jTextField26);
+        jTextField26.setBounds(170, 100, 81, 30);
+
+        jLabel47.setFont(new java.awt.Font("Arial Black", 1, 11)); // NOI18N
+        jLabel47.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel47.setText("Descripcion");
+        jPanel12.add(jLabel47);
+        jLabel47.setBounds(300, 170, 100, 17);
+        jPanel12.add(jTextField27);
+        jTextField27.setBounds(290, 190, 90, 30);
+        jPanel12.add(jTextField28);
+        jTextField28.setBounds(290, 220, 90, 30);
+        jPanel12.add(jTextField29);
+        jTextField29.setBounds(290, 260, 80, 30);
+
+        jLabel48.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel48.setText("Fragil");
+        jPanel12.add(jLabel48);
+        jLabel48.setBounds(230, 270, 50, 17);
+
+        jLabel49.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel49.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel49.setText("Peso");
+        jPanel12.add(jLabel49);
+        jLabel49.setBounds(230, 230, 60, 17);
+
+        jLabel50.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel50.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel50.setText("Tamaño");
+        jPanel12.add(jLabel50);
+        jLabel50.setBounds(220, 200, 80, 17);
+
+        jButton26.setBackground(new java.awt.Color(0, 204, 0));
+        jButton26.setText("Actualizar");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton26);
+        jButton26.setBounds(440, 330, 80, 40);
+
+        jButton27.setBackground(new java.awt.Color(255, 0, 0));
+        jButton27.setText("Atras");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton27);
+        jButton27.setBounds(180, 330, 80, 40);
+
         getContentPane().add(jPanel12);
-        jPanel12.setBounds(0, 0, 100, 100);
+        jPanel12.setBounds(0, 0, 0, 0);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1589,6 +1704,14 @@ public class paquete2 extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton25ActionPerformed
 
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton27ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1648,6 +1771,8 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -1690,7 +1815,17 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -1734,6 +1869,13 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField20;
     private javax.swing.JTextField jTextField21;
     private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
+    private javax.swing.JTextField jTextField24;
+    private javax.swing.JTextField jTextField25;
+    private javax.swing.JTextField jTextField26;
+    private javax.swing.JTextField jTextField27;
+    private javax.swing.JTextField jTextField28;
+    private javax.swing.JTextField jTextField29;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;

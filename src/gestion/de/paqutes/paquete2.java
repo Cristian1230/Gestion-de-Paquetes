@@ -42,6 +42,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(true);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
 
     }
 
@@ -63,7 +64,6 @@ public class paquete2 extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton9 = new javax.swing.JButton();
         jLabel30 = new javax.swing.JLabel();
-        jButton16 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jTextField13 = new javax.swing.JTextField();
         jTextField15 = new javax.swing.JTextField();
@@ -97,6 +97,7 @@ public class paquete2 extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
         jButton23 = new javax.swing.JButton();
         jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
@@ -164,6 +165,7 @@ public class paquete2 extends javax.swing.JFrame {
         jLabel40 = new javax.swing.JLabel();
         aviso = new javax.swing.JLabel();
         jButton22 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(700, 700));
@@ -242,10 +244,6 @@ public class paquete2 extends javax.swing.JFrame {
         jLabel30.setForeground(new java.awt.Color(204, 0, 0));
         jPanel5.add(jLabel30);
         jLabel30.setBounds(270, 210, 120, 20);
-
-        jButton16.setText("jButton16");
-        jPanel5.add(jButton16);
-        jButton16.setBounds(290, 320, 79, 23);
 
         getContentPane().add(jPanel5);
         jPanel5.setBounds(-9, -5, 734, 800);
@@ -521,7 +519,16 @@ public class paquete2 extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jButton24);
-        jButton24.setBounds(90, 480, 140, 40);
+        jButton24.setBounds(30, 150, 140, 40);
+
+        jButton25.setText("Editar");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(jButton25);
+        jButton25.setBounds(30, 380, 140, 40);
 
         getContentPane().add(jPanel4);
         jPanel4.setBounds(0, 0, 700, 700);
@@ -948,6 +955,10 @@ public class paquete2 extends javax.swing.JFrame {
         getContentPane().add(jPanel11);
         jPanel11.setBounds(0, 0, 700, 700);
 
+        jPanel12.setLayout(null);
+        getContentPane().add(jPanel12);
+        jPanel12.setBounds(0, 0, 100, 100);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -965,6 +976,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel9.setVisible(true);
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -992,6 +1004,7 @@ public class paquete2 extends javax.swing.JFrame {
             jPanel5.setVisible(false);
             jPanel10.setVisible(false);
             jPanel11.setVisible(false);
+            jPanel12.setVisible(false);
             
         } catch (SQLException sqle) {
        
@@ -1026,6 +1039,7 @@ public class paquete2 extends javax.swing.JFrame {
                         jPanel9.setVisible(false);
                         jPanel10.setVisible(true);
                         jPanel11.setVisible(false);
+                        jPanel12.setVisible(false);
                     }  if (oe.equals("secretario")) {
                          System.out.println("El rol es correcto");
                         jPanel9.setVisible(true);
@@ -1038,6 +1052,7 @@ public class paquete2 extends javax.swing.JFrame {
                         jPanel8.setVisible(false);
                         jPanel10.setVisible(false);
                         jPanel11.setVisible(false);
+                        jPanel12.setVisible(false);
 
                     } if (oe.equals("cliente")) {
                         jPanel4.setVisible(false);
@@ -1050,6 +1065,7 @@ public class paquete2 extends javax.swing.JFrame {
                         jPanel9.setVisible(false);
                         jPanel10.setVisible(false);
                         jPanel11.setVisible(false);
+                        jPanel12.setVisible(false);
                     }
                 }
             
@@ -1168,6 +1184,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
         jTextField13.setText("");
         jTextField15.setText("");
         jTextField16.setText("");
@@ -1202,6 +1219,7 @@ public class paquete2 extends javax.swing.JFrame {
             jPanel5.setVisible(false);
             jPanel10.setVisible(false);
             jPanel11.setVisible(false);
+            jPanel12.setVisible(false);
         } catch (SQLException sqle) {
 
         }
@@ -1223,6 +1241,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
@@ -1252,6 +1271,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(true);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -1299,6 +1319,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(true);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
@@ -1359,6 +1380,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel11.setVisible(false);
         jTextField14.setText("");
         jPasswordField1.setText("");
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -1372,6 +1394,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
@@ -1385,6 +1408,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
@@ -1398,6 +1422,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
 
     }//GEN-LAST:event_jButton13ActionPerformed
 
@@ -1412,6 +1437,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(true);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
         jTextField14.setText("");
         jPasswordField1.setText("");
     }//GEN-LAST:event_jButton17ActionPerformed
@@ -1497,6 +1523,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(true);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
         jTextField14.setText("");
         jPasswordField1.setText("");
     }//GEN-LAST:event_jButton20ActionPerformed
@@ -1512,10 +1539,11 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);  
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
-         jPanel1.setVisible(false);
+        jPanel1.setVisible(false);
         jPanel2.setVisible(false);
         jPanel3.setVisible(false);
         jPanel4.setVisible(false);
@@ -1525,6 +1553,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
@@ -1538,11 +1567,27 @@ public class paquete2 extends javax.swing.JFrame {
         jPanel5.setVisible(false);
         jPanel10.setVisible(false);
         jPanel11.setVisible(true);
+        jPanel12.setVisible(false);
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        jPanel1.setVisible(false);
+        jPanel2.setVisible(false);
+        jPanel3.setVisible(false);
+        jPanel4.setVisible(false);
+        jPanel6.setVisible(false);
+        jPanel8.setVisible(false);
+        jPanel9.setVisible(false);
+        jPanel5.setVisible(false);
+        jPanel10.setVisible(false);
+        jPanel11.setVisible(false);
+        jPanel12.setVisible(true);
+        
+    }//GEN-LAST:event_jButton25ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1593,7 +1638,6 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
@@ -1603,6 +1647,7 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -1653,6 +1698,7 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;

@@ -63,6 +63,7 @@ public class paquete2 extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton9 = new javax.swing.JButton();
         jLabel30 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jTextField13 = new javax.swing.JTextField();
         jTextField15 = new javax.swing.JTextField();
@@ -241,6 +242,10 @@ public class paquete2 extends javax.swing.JFrame {
         jLabel30.setForeground(new java.awt.Color(204, 0, 0));
         jPanel5.add(jLabel30);
         jLabel30.setBounds(270, 210, 120, 20);
+
+        jButton16.setText("jButton16");
+        jPanel5.add(jButton16);
+        jButton16.setBounds(290, 320, 79, 23);
 
         getContentPane().add(jPanel5);
         jPanel5.setBounds(-9, -5, 734, 800);
@@ -1588,6 +1593,7 @@ public class paquete2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
